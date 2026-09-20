@@ -1,4 +1,4 @@
-Team: Techora(HM26-86F2)| Sub-problem: Routing, visibility,verification | Date: 20 Sept 2026.
+Team: Techora(HM26-86F2) | Sub-problem: Routing, visibility,verification   | Date: 20 Sept 2026.
 
 
 What approach did we take, and what did we reject? (~150 words)
