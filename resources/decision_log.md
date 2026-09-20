@@ -1,4 +1,6 @@
 Team: Techora(HM26-86F2)| Sub-problem: Routing, visibility,verification | Date: 20 Sept 2026.
+
+
 What approach did we take, and what did we reject? (~150 words)
 Our approach: Trust score derived from coordinate bounding precision, EXIF/media presence, and 100-meter duplicate clustering, routing scores between 50% and 74% to a "Needs Verification" staff backlog.Incoming submissions take GPS latitude/longitude, category type, description text, and image payloads through verification_engine.py. The system validates coordinates against Mysuru municipal boundary GeoJSON polygons, scans nearby open reports within 100 meters for duplicates, and calculates a 0–100% confidence rating. Submissions scoring $\ge 75\%$ route directly to zonal maintenance queues, while lower-scoring items are held for supervisor triage.Alternative we considered and rejected: Mandatory OTP/Aadhaar-based identity verification before permitting report lodging.This required citizens to complete two-factor authentication via SMS or DigiLocker before lodging any ticket. It appeared attractive because it virtually eliminated automated sybil spam, identity spoofing, and frivolous prank reports.
 Why did we reject it? 
