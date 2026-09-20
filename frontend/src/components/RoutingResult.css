@@ -1,0 +1,26 @@
+.routing-result-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 1.25rem;
+  backdrop-filter: blur(12px);
+}
+.rr-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.rr-icon {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: rgba(0, 200, 83, 0.15);
+  color: var(--status-green);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.2rem; font-weight: bold;
+}
+.rr-info h4 { margin: 0; color: var(--text-primary); font-size: 1rem; }
+.rr-type { font-size: 0.8rem; color: var(--text-secondary); background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 4px; display: inline-block; margin-top: 4px; }
+.rr-toggle { margin-top: 1rem; font-size: 0.85rem; color: var(--accent-gold); cursor: pointer; text-align: right; }
+.rr-toggle:hover { text-decoration: underline; }
+.rr-details { margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--card-border); font-size: 0.85rem; color: var(--text-secondary); }
+.rr-meta { font-size: 0.75rem; color: var(--text-muted); margin-top: 0.5rem; }

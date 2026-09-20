@@ -1,0 +1,18 @@
+.location-picker {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+.lp-buttons { display: flex; gap: 1rem; }
+.lp-btn {
+  flex: 1; padding: 0.75rem; border-radius: 8px; font-weight: 600; cursor: pointer;
+  border: none; transition: all 0.2s; font-family: inherit; font-size: 0.95rem;
+}
+.lp-btn.primary { background: var(--accent-gold); color: #000; }
+.lp-btn.primary:hover { background: var(--accent-hover); }
+.lp-btn.outline { background: transparent; border: 1px solid var(--text-muted); color: var(--text-primary); }
+.lp-btn.outline:hover { border-color: var(--text-primary); }
+.lp-btn.small { padding: 0.5rem; font-size: 0.85rem; background: rgba(255,255,255,0.1); color: white; width: 100%; margin-top: 1rem; }
+.lp-map-container { height: 300px; }
+.lp-selected { margin-top: 1rem; font-size: 0.9rem; color: var(--status-green); background: rgba(0,200,83,0.1); padding: 0.5rem; border-radius: 4px; text-align: center; }

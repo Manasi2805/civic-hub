@@ -1,0 +1,19 @@
+.evidence-upload {
+  border: 2px dashed var(--text-muted);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  background: rgba(255,255,255,0.02);
+  transition: all 0.3s;
+}
+.evidence-upload:hover { border-color: var(--accent-gold); background: rgba(240, 192, 64, 0.05); }
+.eu-icons { font-size: 2rem; margin-bottom: 1rem; }
+.eu-empty p { color: var(--text-secondary); margin-bottom: 1.5rem; }
+.eu-actions { display: flex; justify-content: center; gap: 1rem; }
+.eu-btn {
+  background: var(--bg-elevated); border: 1px solid var(--card-border); color: var(--text-primary);
+  padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; font-size: 0.9rem; transition: 0.2s;
+}
+.eu-btn:hover { background: rgba(255,255,255,0.1); }
+.eu-file { display: flex; justify-content: space-between; align-items: center; background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; }
+.eu-remove { background: var(--status-red); color: white; border: none; padding: 0.25rem 0.75rem; border-radius: 4px; cursor: pointer; }

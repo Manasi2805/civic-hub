@@ -1,0 +1,89 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding-top: 64px;
+  /* offset for navbar */
+}
+
+/* Navigation Bar Container */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2.5rem;
+  background-color: #0b0f19;
+  border-bottom: 1px solid #1e293b;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Brand Logo */
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Link Group */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  /* Separates the links cleanly */
+}
+
+/* Base Nav Link Styles */
+.nav-link {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #f8fafc;
+}
+
+/* Active Link State */
+.nav-link.active {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Ensure the bar spans full width and pushes logo left, links right */
+.navbar {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  padding: 1rem 2.5rem !important;
+  box-sizing: border-box !important;
+  background-color: #0b0f19;
+}
+
+/* Force margin separation on the logo */
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: auto !important;
+  /* Pushes everything after it to the right */
+}
+
+/* Container for all right-hand links */
+.nav-links {
+  display: flex !important;
+  align-items: center !important;
+  gap: 1.75rem !important;
+  /* Space between each link */
+}

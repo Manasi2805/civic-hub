@@ -1,0 +1,20 @@
+.issue-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 1rem;
+  backdrop-filter: blur(12px);
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex; flex-direction: column; gap: 0.75rem;
+}
+.issue-card:hover { transform: translateY(-3px); border-color: rgba(255,255,255,0.2); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+.ic-header { display: flex; justify-content: space-between; align-items: center; font-size: 0.75rem; }
+.ic-id { color: var(--text-muted); font-family: monospace; }
+.ic-priority { color: var(--status-red); font-weight: bold; font-size: 0.65rem; border: 1px solid var(--status-red); padding: 1px 4px; border-radius: 4px; }
+.ic-body { display: flex; gap: 1rem; align-items: center; }
+.ic-icon { font-size: 2rem; background: rgba(255,255,255,0.05); width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; border-radius: 8px; }
+.ic-details h4 { margin: 0 0 0.25rem 0; color: var(--text-primary); }
+.ic-details p { margin: 0; font-size: 0.8rem; color: var(--text-secondary); }
+.ic-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 0.5rem; }
+.ic-score { font-size: 0.75rem; color: var(--text-muted); }

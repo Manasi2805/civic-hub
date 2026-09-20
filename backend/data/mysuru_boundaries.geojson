@@ -1,0 +1,235 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Krishnaraja",
+        "authority_name": "Krishnaraja",
+        "authority_type": "corporation",
+        "valid_from": "2024-01-01",
+        "valid_to": null,
+        "version": "2026-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.64, 12.33],
+            [76.66, 12.33],
+            [76.66, 12.35],
+            [76.64, 12.35],
+            [76.64, 12.33]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chamaraja",
+        "authority_name": "Chamaraja",
+        "authority_type": "corporation",
+        "valid_from": "2024-01-01",
+        "valid_to": null,
+        "version": "2026-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.64, 12.31],
+            [76.66, 12.31],
+            [76.66, 12.33],
+            [76.64, 12.33],
+            [76.64, 12.31]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Narasimharaja",
+        "authority_name": "Narasimharaja",
+        "authority_type": "corporation",
+        "valid_from": "2024-01-01",
+        "valid_to": null,
+        "version": "2026-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.66, 12.31],
+            [76.68, 12.31],
+            [76.68, 12.33],
+            [76.66, 12.33],
+            [76.66, 12.31]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jayalakshmipuram",
+        "authority_name": "Jayalakshmipuram",
+        "authority_type": "corporation",
+        "valid_from": "2024-01-01",
+        "valid_to": null,
+        "version": "2026-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.62, 12.33],
+            [76.64, 12.33],
+            [76.64, 12.35],
+            [76.62, 12.35],
+            [76.62, 12.33]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kuvempunagar",
+        "authority_name": "Kuvempunagar",
+        "authority_type": "corporation",
+        "valid_from": "2024-01-01",
+        "valid_to": null,
+        "version": "2026-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.62, 12.29],
+            [76.64, 12.29],
+            [76.64, 12.31],
+            [76.62, 12.31],
+            [76.62, 12.29]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vijayanagar",
+        "authority_name": "Vijayanagar",
+        "authority_type": "corporation",
+        "valid_from": "2024-01-01",
+        "valid_to": null,
+        "version": "2026-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.62, 12.35],
+            [76.65, 12.35],
+            [76.65, 12.37],
+            [76.62, 12.37],
+            [76.62, 12.35]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hebbal",
+        "authority_name": "Hebbal",
+        "authority_type": "corporation",
+        "valid_from": "2024-01-01",
+        "valid_to": null,
+        "version": "2026-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.65, 12.35],
+            [76.68, 12.35],
+            [76.68, 12.37],
+            [76.65, 12.37],
+            [76.65, 12.35]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saraswathipuram",
+        "authority_name": "Saraswathipuram",
+        "authority_type": "corporation",
+        "valid_from": "2024-01-01",
+        "valid_to": null,
+        "version": "2026-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.64, 12.29],
+            [76.66, 12.29],
+            [76.66, 12.31],
+            [76.64, 12.31],
+            [76.64, 12.29]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lakshmipuram",
+        "authority_name": "Lakshmipuram",
+        "authority_type": "corporation",
+        "valid_from": "2024-01-01",
+        "valid_to": null,
+        "version": "2026-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.66, 12.29],
+            [76.68, 12.29],
+            [76.68, 12.31],
+            [76.66, 12.31],
+            [76.66, 12.29]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Devaraja",
+        "authority_name": "Devaraja",
+        "authority_type": "corporation",
+        "valid_from": "2024-01-01",
+        "valid_to": null,
+        "version": "2026-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.68, 12.31],
+            [76.70, 12.31],
+            [76.70, 12.33],
+            [76.68, 12.33],
+            [76.68, 12.31]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg-base: #0a0a0f;
+  --bg-elevated: #12121a;
+  --card-bg: rgba(26, 26, 46, 0.8);
+  --card-border: rgba(255, 255, 255, 0.08);
+  --accent-gold: #f0c040;
+  --accent-hover: #ffd060;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0b0;
+  --text-muted: #6b6b80;
+  
+  --status-green: #00c853;
+  --status-amber: #ffab00;
+  --status-red: #ff5252;
+  --status-blue: #448aff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-base);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+::selection {
+  background: var(--accent-gold);
+  color: #000;
+}

@@ -1,0 +1,92 @@
+.citizen-login-wrapper {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.citizen-login-box {
+    background: #161f30;
+    border: 1px solid #2d3b55;
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.citizen-login-box h2 {
+    color: #f59e0b;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+.citizen-login-box p {
+    color: #94a3b8;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.citizen-login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.citizen-login-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.citizen-login-field label {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+.citizen-login-field input {
+    width: 100%;
+    padding: 11px 12px;
+    border-radius: 6px;
+    border: 1px solid #334155;
+    background: rgba(0, 0, 0, 0.35);
+    color: #ffffff;
+    font-size: 0.95rem;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.citizen-login-field input:focus {
+    border-color: #f59e0b;
+}
+
+.citizen-login-btn {
+    margin-top: 0.5rem;
+    padding: 12px;
+    background: #f59e0b;
+    color: #000000;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.citizen-login-btn:hover {
+    filter: brightness(1.15);
+}
+
+.citizen-auth-error {
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid #ef4444;
+    color: #ef4444;
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin-bottom: 1.2rem;
+    font-size: 0.85rem;
+}
